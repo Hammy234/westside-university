@@ -383,9 +383,9 @@ render() {
 ```js
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import Home from "./components/Home/Home";
-import About from "./components/About/About";
-import ClassList from "./components/ClassList/ClassList";
+import Home from "./src/component/Home/Home";
+import About from "./src/component/About/About";
+import ClassList from "./src/component/ClassList/ClassList";
 
 export default (
   <Switch>
